@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1761.49 322.28">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st1 {
+        fill: url(#linear-gradient9);
+      }
+
+      .st2 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st3 {
+        fill: url(#linear-gradient7);
+      }
+
+      .st4 {
+        fill: url(#linear-gradient5);
+      }
+
+      .st5 {
+        fill: url(#radial-gradient);
+      }
+
+      .st5, .st6, .st7, .st8, .st9 {
+        opacity: .5;
+      }
+
+      .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        mix-blend-mode: screen;
+      }
+
+      .st15 {
+        isolation: isolate;
+      }
+
+      .st16 {
+        fill: url(#linear-gradient2);
+        filter: url(#drop-shadow-2);
+      }
+
+      .st17 {
+        fill: url(#linear-gradient6);
+        filter: url(#drop-shadow-4);
+      }
+
+      .st18 {
+        fill: url(#linear-gradient8);
+        filter: url(#drop-shadow-5);
+      }
+
+      .st19 {
+        fill: url(#linear-gradient4);
+        filter: url(#drop-shadow-3);
+      }
+
+      .st20 {
+        fill: url(#linear-gradient);
+        filter: url(#drop-shadow-1);
+      }
+
+      .st6 {
+        fill: url(#radial-gradient6);
+      }
+
+      .st7 {
+        fill: url(#radial-gradient8);
+      }
+
+      .st8 {
+        fill: url(#radial-gradient2);
+      }
+
+      .st9 {
+        fill: url(#radial-gradient4);
+      }
+
+      .st10 {
+        fill: url(#radial-gradient1);
+      }
+
+      .st10, .st11, .st12, .st13, .st14 {
+        opacity: .8;
+      }
+
+      .st11 {
+        fill: url(#radial-gradient7);
+      }
+
+      .st12 {
+        fill: url(#radial-gradient9);
+      }
+
+      .st13 {
+        fill: url(#radial-gradient3);
+      }
+
+      .st14 {
+        fill: url(#radial-gradient5);
+      }
+
+      .st21 {
+        font-family: Poppins-Italic, Poppins;
+        font-size: 19px;
+        font-style: italic;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="159.26" y1="-17.61" x2="159.26" y2="402.39" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbf39e"/>
+      <stop offset="1" stop-color="#fbce3b"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x=".93" y="-1.62" width="322.8" height="322.56" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="1"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient1" x1="159.26" y1="-1.11" x2="159.26" y2="127.36" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient" cx="159.26" cy="-50987.8" fx="159.26" fy="-50987.8" r="199.15" gradientTransform="translate(0 669.64) scale(1 .01)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".07" stop-color="#dedede"/>
+      <stop offset=".22" stop-color="#a4a4a4"/>
+      <stop offset=".36" stop-color="#727272"/>
+      <stop offset=".5" stop-color="#494949"/>
+      <stop offset=".64" stop-color="#292929"/>
+      <stop offset=".77" stop-color="#121212"/>
+      <stop offset=".89" stop-color="#040404"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient1" cx="238.75" cy="350.28" fx="238.75" fy="350.28" r="217.9" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient2" x1="519.06" x2="519.06" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-2" x="360.69" y="-1.62" width="322.8" height="322.56" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="1"/>
+      <feGaussianBlur result="blur1" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur1" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient3" x1="519.06" y1="-1.11" x2="519.06" y2="127.36" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient2" cx="519.06" fx="519.06" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient3" cx="598.55" cy="350.28" fx="598.55" fy="350.28" r="217.9" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient4" x1="878.86" x2="878.86" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-3" x="720.45" y="-1.62" width="322.8" height="322.56" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="1"/>
+      <feGaussianBlur result="blur2" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient5" x1="878.86" y1="-1.11" x2="878.86" y2="127.36" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient4" cx="878.86" fx="878.86" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient5" cx="958.35" cy="350.28" fx="958.35" fy="350.28" r="217.9" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient6" x1="1238.66" x2="1238.66" y2="402.39" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-4" x="1080.21" y="-1.62" width="322.8" height="322.56" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="1"/>
+      <feGaussianBlur result="blur3" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient7" x1="1238.66" y1="-1.11" x2="1238.66" y2="127.36" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient6" cx="1238.66" fx="1238.66" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient7" cx="1318.15" cy="350.28" fx="1318.15" fy="350.28" r="217.9" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient8" x1="1598.46" x2="1598.46" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-5" x="1440.21" y="-1.62" width="322.56" height="322.56" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="1"/>
+      <feGaussianBlur result="blur4" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".1"/>
+      <feComposite in2="blur4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient9" x1="1598.46" y1="-1.11" x2="1598.46" y2="127.36" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient8" cx="1598.46" fx="1598.46" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient9" cx="1677.95" cy="350.28" fx="1677.95" fy="350.28" r="217.9" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g class="st15">
+    <g id="Layer_1">
+      <rect class="st20" x="4.02" y="3.39" width="310.48" height="310.48"/>
+      <rect class="st0" x="4.02" y="3.39" width="310.48" height="60"/>
+      <path class="st5" d="M314.5,64.37v-2.96c-36.42-.54-92.42-.89-155.24-.89s-118.82.35-155.24.89v2.96c36.42.54,92.42.89,155.24.89s118.82-.35,155.24-.89Z"/>
+      <path class="st10" d="M23.89,313.88h290.61v-167.96c-23.59-8.75-49.11-13.54-75.75-13.54-107.94,0-197.53,78.48-214.86,181.5Z"/>
+      <text class="st21" transform="translate(59.7 134.23)"><tspan x="0" y="0">“The navigation feels </tspan><tspan x="-4.06" y="30">natural. It’s really nice </tspan><tspan x=".87" y="60">that you can see the </tspan><tspan x="-7.57" y="90">labels when you hover </tspan><tspan x="66.47" y="120">over it”</tspan></text>
+      <rect class="st16" x="363.82" y="3.39" width="310.48" height="310.48"/>
+      <rect class="st2" x="363.82" y="3.39" width="310.48" height="60"/>
+      <path class="st8" d="M674.3,64.37v-2.96c-36.42-.54-92.42-.89-155.24-.89s-118.82.35-155.24.89v2.96c36.42.54,92.42.89,155.24.89s118.82-.35,155.24-.89Z"/>
+      <path class="st13" d="M383.69,313.88h290.61v-167.96c-23.59-8.75-49.11-13.54-75.75-13.54-107.94,0-197.53,78.48-214.86,181.5Z"/>
+      <text class="st21" transform="translate(472.03 149.23)"><tspan x="0" y="0">“I like how</tspan><tspan x="-63.53" y="30">everything is laid out in </tspan><tspan x="-85.14" y="60">steps. It guides you through </tspan><tspan x="-55.5" y="90">what you need to do”</tspan></text>
+      <rect class="st19" x="723.62" y="3.39" width="310.48" height="310.48"/>
+      <rect class="st4" x="723.62" y="3.39" width="310.48" height="60"/>
+      <path class="st9" d="M1034.1,64.37v-2.96c-36.42-.54-92.42-.89-155.24-.89s-118.82.35-155.24.89v2.96c36.42.54,92.42.89,155.24.89s118.82-.35,155.24-.89Z"/>
+      <path class="st14" d="M743.49,313.88h290.61v-167.96c-23.59-8.75-49.11-13.54-75.75-13.54-107.94,0-197.53,78.48-214.86,181.5Z"/>
+      <text class="st21" transform="translate(784.61 164.23)"><tspan x="0" y="0">“The process is very</tspan><tspan x="-16.15" y="30">straightforward. I didn’t </tspan><tspan x="-30.63" y="60">have to hunt for anything”</tspan></text>
+      <rect class="st17" x="1083.42" y="3.39" width="310.48" height="310.48"/>
+      <rect class="st3" x="1083.42" y="3.39" width="310.48" height="60"/>
+      <path class="st6" d="M1393.9,64.37v-2.96c-36.42-.54-92.42-.89-155.24-.89s-118.82.35-155.24.89v2.96c36.42.54,92.42.89,155.24.89s118.82-.35,155.24-.89Z"/>
+      <path class="st11" d="M1103.29,313.88h290.61v-167.96c-23.59-8.75-49.11-13.54-75.75-13.54-107.94,0-197.53,78.48-214.86,181.5Z"/>
+      <text class="st21" transform="translate(1119.46 134.23)"><tspan x="0" y="0">“It would be awesome if I </tspan><tspan x="2.38" y="30">could just drag an event </tspan><tspan x="13.75" y="60">to a different time slot </tspan><tspan x="8.46" y="90">instead of opening it to </tspan><tspan x="91.49" y="120">edit...”</tspan></text>
+      <rect class="st18" x="1443.22" y="3.39" width="310.48" height="310.48"/>
+      <rect class="st1" x="1443.22" y="3.39" width="310.48" height="60"/>
+      <path class="st7" d="M1753.71,64.37v-2.96c-36.42-.54-92.42-.89-155.24-.89s-118.82.35-155.24.89v2.96c36.42.54,92.42.89,155.24.89s118.82-.35,155.24-.89Z"/>
+      <path class="st12" d="M1463.1,313.88h290.61v-167.96c-23.59-8.75-49.11-13.54-75.75-13.54-107.94,0-197.53,78.48-214.86,181.5Z"/>
+      <text class="st21" transform="translate(1505.86 149.23)"><tspan x="0" y="0">“I like the layout, it’s </tspan><tspan x="-27.01" y="30">simple but effective. I like </tspan><tspan x="-4.84" y="60">how things are color </tspan><tspan x="-14.77" y="90">coded to differentiate”</tspan></text>
+    </g>
+  </g>
+</svg>

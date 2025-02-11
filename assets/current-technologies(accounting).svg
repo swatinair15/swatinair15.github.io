@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000.87 766.85">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #04ce00;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #ababab;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .st2, .st3 {
+        isolation: isolate;
+      }
+
+      .st3 {
+        fill: #ababab;
+        font-family: Poppins-Medium, Poppins;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <line class="st1" x1="92.9" y1="571.77" x2="1000.87" y2="571.77"/>
+  <line class="st1" x1="92.9" y1="571.77" x2="92.9" y2="580.84"/>
+  <line class="st1" x1="1000.87" y1="571.77" x2="1000.87" y2="580.84"/>
+  <line class="st1" x1="819.27" y1="571.77" x2="819.27" y2="580.84"/>
+  <line class="st1" x1="637.68" y1="571.77" x2="637.68" y2="580.84"/>
+  <line class="st1" x1="456.09" y1="571.77" x2="456.09" y2="580.84"/>
+  <line class="st1" x1="274.49" y1="571.77" x2="274.49" y2="580.84"/>
+  <line class="st1" x1="92.9" y1="508.24" x2="1000.87" y2="508.24"/>
+  <line class="st1" x1="92.9" y1="444.71" x2="1000.87" y2="444.71"/>
+  <line class="st1" x1="92.9" y1="381.18" x2="1000.87" y2="381.18"/>
+  <line class="st1" x1="92.9" y1="317.65" x2="1000.87" y2="317.65"/>
+  <line class="st1" x1="92.9" y1="254.12" x2="1000.87" y2="254.12"/>
+  <line class="st1" x1="92.9" y1="190.59" x2="1000.87" y2="190.59"/>
+  <line class="st1" x1="92.9" y1="127.06" x2="1000.87" y2="127.06"/>
+  <line class="st1" x1="92.9" y1="63.53" x2="1000.87" y2="63.53"/>
+  <line class="st1" x1="92.9" x2="1000.87"/>
+  <path class="st0" d="M155.8,254.64h55.78c5.52,0,10,4.48,10,10v307.13h-75.78v-307.13c0-5.52,4.48-10,10-10h0Z"/>
+  <path class="st0" d="M337.4,508.12h55.78c5.52,0,10,4.48,10,10v53.65h-75.78v-53.65c0-5.52,4.48-10,10-10Z"/>
+  <path class="st0" d="M882.18,63.53h55.78c5.52,0,10,4.48,10,10v498.24h-75.78V73.53c0-5.52,4.48-10,10-10h0Z"/>
+  <path class="st0" d="M700.59,190.59h55.78c5.52,0,10,4.48,10,10v371.18h-75.78V200.59c0-5.52,4.48-10,10-10h0Z"/>
+  <path class="st0" d="M518.99,317.65h55.78c5.52,0,10,4.48,10,10v244.12h-75.78v-244.12c0-5.52,4.48-10,10-10h0Z"/>
+  <text class="st3" transform="translate(903.46 49.73)"><tspan x="0" y="0">8</tspan></text>
+  <text class="st3" transform="translate(721.81 176.13)"><tspan x="0" y="0">6</tspan></text>
+  <text class="st3" transform="translate(540.15 303.61)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st3" transform="translate(362.56 494.2)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st3" transform="translate(176.63 240.6)"><tspan x="0" y="0">5</tspan></text>
+  <g class="st2">
+    <g class="st2">
+      <text class="st3" transform="translate(53.37 755.57) rotate(-50)"><tspan x="0" y="0">Accounting Software</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <g class="st2">
+      <text class="st3" transform="translate(271.74 702.29) rotate(-50)"><tspan x="0" y="0">AI driven tools</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <g class="st2">
+      <text class="st3" transform="translate(463.53 705.42) rotate(-50)"><tspan x="0" y="0">Cloud-based...</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <g class="st2">
+      <text class="st3" transform="translate(660.95 685.59) rotate(-50)"><tspan x="0" y="0">ERP systems</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <g class="st2">
+      <text class="st3" transform="translate(829.72 698.83) rotate(-50)"><tspan x="0" y="0">Spreadsheet...</tspan></text>
+    </g>
+  </g>
+</svg>

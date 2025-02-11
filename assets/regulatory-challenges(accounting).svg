@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1262.76 691.35">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #876fd4;
+      }
+
+      .st1, .st2, .st3 {
+        isolation: isolate;
+      }
+
+      .st2 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 30.57px;
+        font-weight: 500;
+      }
+
+      .st3 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 27px;
+      }
+
+      .st4 {
+        fill: #f5921b;
+      }
+
+      .st5 {
+        fill: #fffdfa;
+      }
+
+      .st6 {
+        fill: #87bb62;
+      }
+
+      .st7 {
+        fill: #4394e5;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="st5" x="718.74" y="165.74" width="541.63" height="360.25" rx="16" ry="16"/>
+    <g>
+      <rect class="st7" x="736.67" y="185.41" width="48.06" height="48.06"/>
+      <g class="st1">
+        <text class="st3" transform="translate(828.48 219.43)"><tspan x="0" y="0">Staying updated with changes</tspan></text>
+      </g>
+      <rect class="st4" x="736.67" y="275.87" width="48.06" height="48.06"/>
+      <g class="st1">
+        <text class="st3" transform="translate(828.48 309.89)"><tspan x="0" y="0">Implementation of new rules</tspan></text>
+      </g>
+      <rect class="st0" x="736.67" y="366.33" width="48.06" height="48.06"/>
+      <g class="st1">
+        <text class="st3" transform="translate(828.48 400.35)"><tspan x="0" y="0">Reporting requirements</tspan></text>
+      </g>
+      <rect class="st6" x="736.67" y="456.75" width="48.06" height="48.06"/>
+      <g class="st1">
+        <text class="st3" transform="translate(828.48 490.86)"><tspan x="0" y="0">Auditing</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path class="st6" d="M302.4,11.16v296.62L128.12,67.86l-.06-.09c.13-.1.26-.19.39-.27,49.28-34.82,109.22-55.55,173.96-56.34Z"/>
+    <path class="st0" d="M316.01,354.56l-178.61,246.59-1.89.18C60.64,545.02,12.23,455.45,12.23,354.56s48.33-190.29,123.07-246.6c.34-.26.68-.51,1.02-.77l.9,1.24,178.8,246.14Z"/>
+    <path class="st4" d="M636.11,375.87c-2.07,168.63-139.41,304.7-308.53,304.7-66.24,0-127.62-20.88-177.89-56.41l177.9-245.57,1.97-2.72h306.56Z"/>
+    <path class="st7" d="M629.33,350.69h-304.66V46.02h.2c167.25,2.16,302.41,137.39,304.46,304.67Z"/>
+    <g class="st1">
+      <text class="st2" transform="translate(421.63 243.85)"><tspan x="0" y="0">25%</tspan></text>
+    </g>
+    <g class="st1">
+      <text class="st2" transform="translate(371.43 528.21)"><tspan x="0" y="0">35%</tspan></text>
+    </g>
+    <g class="st1">
+      <text class="st2" transform="translate(118.69 367.04)"><tspan x="0" y="0">30%</tspan></text>
+    </g>
+    <g class="st1">
+      <text class="st2" transform="translate(210.56 116.87)"><tspan x="0" y="0">10%</tspan></text>
+    </g>
+  </g>
+</svg>

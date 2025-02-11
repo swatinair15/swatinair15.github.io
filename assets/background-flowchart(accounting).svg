@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 822.76 494.27">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        fill: #fff;
+      }
+
+      .st0, .st2, .st3, .st4, .st8, .st9, .st5, .st10, .st7 {
+        font-style: italic;
+      }
+
+      .st0, .st3, .st8, .st9, .st5, .st7 {
+        font-size: 8px;
+      }
+
+      .st0, .st8, .st5 {
+        font-family: Poppins-Italic, Poppins;
+      }
+
+      .st1, .st2, .st11, .st4, .st6, .st10 {
+        font-size: 9px;
+      }
+
+      .st1, .st11, .st6 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .st12 {
+        fill: #ce0505;
+      }
+
+      .st2, .st3, .st4, .st9, .st10, .st7 {
+        font-family: Poppins-LightItalic, Poppins;
+        font-weight: 300;
+      }
+
+      .st13 {
+        fill: #3ec400;
+      }
+
+      .st14 {
+        fill: none;
+        stroke: #ababab;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st3, .st11, .st4, .st8, .st9, .st5, .st6, .st10 {
+        isolation: isolate;
+      }
+
+      .st15 {
+        fill: #ababab;
+      }
+    </style>
+  </defs>
+  <line class="st14" x1="411.38" y1="9.88" x2="411.38" y2="69.38"/>
+  <polygon class="st15" points="417.45 68.57 405.3 68.57 411.38 74.64 417.45 68.57"/>
+  <line class="st14" x1="411.38" y1="419.63" x2="411.38" y2="479.13"/>
+  <polygon class="st15" points="417.45 478.32 405.3 478.32 411.38 484.39 417.45 478.32"/>
+  <line class="st14" x1="93.9" y1="228.56" x2="93.9" y2="255.69"/>
+  <polygon class="st15" points="99.98 254.87 87.83 254.87 93.9 260.94 99.98 254.87"/>
+  <rect class="st12" y="81.46" width="187.8" height="138.94" rx="10" ry="10"/>
+  <g>
+    <text class="st4" transform="translate(75.38 117.13)"><tspan x="0" y="0">Problem</tspan></text>
+    <text class="st3" transform="translate(76.42 171.2)"><tspan x="0" y="0">Example:</tspan></text>
+    <text class="st6" transform="translate(47.46 142.94)"><tspan x="0" y="0">Steep learning curve</tspan></text>
+    <text class="st5" transform="translate(28 187.8)"><tspan x="0" y="0">“Difficulty learning new software”</tspan></text>
+  </g>
+  <g>
+    <rect class="st13" y="268.17" width="187.8" height="138.94" rx="10" ry="10"/>
+    <g>
+      <text class="st10" transform="translate(76.22 299.04)"><tspan x="0" y="0">Solution</tspan></text>
+      <text class="st9" transform="translate(75.24 353.11)"><tspan x="0" y="0">Example :</tspan></text>
+      <text class="st11" transform="translate(19.35 324.85)"><tspan x="0" y="0">Simplified UI with guided tutorials</tspan></text>
+      <text class="st8" transform="translate(38.08 369.71)"><tspan x="0" y="0">“User-friendly interface with</tspan><tspan x="13.29" y="9.6">onboarding tutorials”</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect class="st13" x="634.96" y="268.56" width="187.8" height="138.94" rx="10" ry="10"/>
+    <g>
+      <text class="st10" transform="translate(711.18 304.23)"><tspan x="0" y="0">Solution</tspan></text>
+      <text class="st9" transform="translate(710.2 358.3)"><tspan x="0" y="0">Example :</tspan></text>
+      <text class="st11" transform="translate(643.75 330.04)"><tspan x="0" y="0">Real-time regulatory updates &amp; alerts</tspan></text>
+      <text class="st8" transform="translate(646.62 374.9)"><tspan x="0" y="0">“Real-time alerts for regulation changes”</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect class="st13" x="317.48" y="268.17" width="187.8" height="138.94" rx="10" ry="10"/>
+    <g>
+      <text class="st10" transform="translate(393.45 293.84)"><tspan x="0" y="0">Solution</tspan></text>
+      <text class="st9" transform="translate(392.47 367.91)"><tspan x="0" y="0">Example :</tspan></text>
+      <text class="st11" transform="translate(358.06 319.65)"><tspan x="0" y="0">AI powered automation</tspan><tspan x="50" y="10.8">+</tspan><tspan x="17.69" y="21.6">API connectivity</tspan></text>
+      <text class="st8" transform="translate(343.61 384.51)"><tspan x="0" y="0">“AI-driven automated data entry”</tspan></text>
+    </g>
+  </g>
+  <rect class="st12" x="317.48" y="81.39" width="187.8" height="138.94" rx="10" ry="10"/>
+  <text class="st2" transform="translate(392.86 117.13)"><tspan x="0" y="0">Problem</tspan></text>
+  <text class="st7" transform="translate(393.9 171.27)"><tspan x="0" y="0">Example:</tspan></text>
+  <text class="st1" transform="translate(334.61 143.09)"><tspan x="0" y="0">Poor integration with existing tools</tspan></text>
+  <text class="st0" transform="translate(332.93 187.87)"><tspan x="0" y="0">“Manual data entry is time consuming”</tspan></text>
+  <rect class="st12" x="634.96" y="81.39" width="187.8" height="138.94" rx="10" ry="10"/>
+  <text class="st2" transform="translate(710.34 117.13)"><tspan x="0" y="0">Problem</tspan></text>
+  <text class="st7" transform="translate(711.38 171.27)"><tspan x="0" y="0">Example:</tspan></text>
+  <text class="st1" transform="translate(664.73 143.09)"><tspan x="0" y="0">Keeping up with compliance</tspan></text>
+  <text class="st0" transform="translate(648.25 187.87)"><tspan x="0" y="0">“Compliance updates are hard to track”</tspan></text>
+  <line class="st14" x1="411.38" y1="228.44" x2="411.38" y2="255.57"/>
+  <polygon class="st15" points="417.45 254.75 405.3 254.75 411.38 260.82 417.45 254.75"/>
+  <line class="st14" x1="728.86" y1="228.56" x2="728.86" y2="255.69"/>
+  <polygon class="st15" points="734.93 254.87 722.78 254.87 728.86 260.94 734.93 254.87"/>
+  <path class="st14" d="M93.9,70.59v-18.33c0-5.52,4.48-10,10-10h614.96c5.52,0,10,4.48,10,10v18.33"/>
+  <polygon class="st15" points="87.82 69.77 99.97 69.77 93.9 75.85 87.82 69.77"/>
+  <polygon class="st15" points="734.93 69.77 722.78 69.77 728.86 75.85 734.93 69.77"/>
+  <path class="st14" d="M728.86,414.8v23.59c0,5.52-4.48,10-10,10H103.9c-5.52,0-10-4.48-10-10v-23.59"/>
+</svg>

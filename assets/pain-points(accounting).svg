@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1258.6 699.7">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 31.57px;
+        font-weight: 500;
+      }
+
+      .st0, .st1 {
+        isolation: isolate;
+      }
+
+      .st2 {
+        fill: #876fd4;
+      }
+
+      .st1 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 27px;
+      }
+
+      .st3 {
+        fill: #f5921b;
+      }
+
+      .st4 {
+        fill: #fffdfa;
+      }
+
+      .st5 {
+        fill: #87bb62;
+      }
+
+      .st6 {
+        fill: #4394e5;
+      }
+    </style>
+  </defs>
+  <rect class="st4" x="712.29" y="172.32" width="541.63" height="360.25" rx="16" ry="16"/>
+  <path class="st5" d="M315.87,20v318.69l-.38.61-168.66,269.6C58.49,551.98,0,452.74,0,339.84,0,164.52,141.05,22.14,315.87,20Z"/>
+  <path class="st2" d="M409.15,685.27c-30.09,9.38-62.1,14.43-95.28,14.43-60.89,0-117.81-17.01-166.26-46.55l165.11-263.93,96.43,296.05Z"/>
+  <path class="st3" d="M636.95,382.26h0c-15.97,120.52-99.04,219.85-210.43,259.22l-4.84-2.01-96.06-294.91,68.34,8.28,242.99,29.42h0Z"/>
+  <path class="st6" d="M659.74,319.84c0,11.65-.62,23.16-1.84,34.48l-314.03-38.03V0c174.82,2.14,315.87,144.52,315.87,319.84Z"/>
+  <text class="st0" transform="translate(441.65 204.54)"><tspan x="0" y="0">27%</tspan></text>
+  <text class="st0" transform="translate(443.27 478.29)"><tspan x="0" y="0">18%</tspan></text>
+  <text class="st0" transform="translate(263.39 596.31)"><tspan x="0" y="0">14%</tspan></text>
+  <text class="st0" transform="translate(129.67 314.86)"><tspan x="0" y="0">41%</tspan></text>
+  <g>
+    <rect class="st6" x="741.9" y="191.99" width="48.06" height="48.06"/>
+    <text class="st1" transform="translate(833.71 226.01)"><tspan x="0" y="0">Regulatory compliance</tspan></text>
+    <rect class="st3" x="741.9" y="282.45" width="48.06" height="48.06"/>
+    <text class="st1" transform="translate(833.71 316.47)"><tspan x="0" y="0">Lack of training</tspan></text>
+    <rect class="st2" x="741.9" y="372.92" width="48.06" height="48.06"/>
+    <text class="st1" transform="translate(833.71 406.94)"><tspan x="0" y="0">Poor interface of tools</tspan></text>
+    <rect class="st5" x="741.9" y="463.33" width="48.06" height="48.06"/>
+    <text class="st1" transform="translate(833.71 497.45)"><tspan x="0" y="0">Data accuracy and reliability</tspan></text>
+  </g>
+</svg>
