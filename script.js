@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (accountingProject) {
     const clickableElements = accountingProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-      element.addEventListener("click", () => redirectTo("accountingworkflows.html"));
+      element.addEventListener("click", () => redirectTo("/accountingworkflows"));
     });
   }
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (leaflinkProject) {
     const clickableElements = leaflinkProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("leaflink.html"));
+        element.addEventListener("click", () => redirectTo("/leaflink"));
     });
   }
  
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (greeminderProject) {
     const clickableElements = greeminderProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("greeminder.html"));
+        element.addEventListener("click", () => redirectTo("/greeminder"));
     });
   }
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (corridorProject) {
     const clickableElements = corridorProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("corridor.html"));
+        element.addEventListener("click", () => redirectTo("/corridor"));
     });
   }
 
@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Define URLs for each project
   const projectLinks = [
-    "microinteractions.html",   // First project
-    "social-media-creatives.html",         // Second project
-    "motion-graphics.html"       // Third project
+    "/microinteractions",   // First project
+    "/social-media-creatives",         // Second project
+    "/motion-graphics"       // Third project
   ];
 
   // Loop through each project and add click event
