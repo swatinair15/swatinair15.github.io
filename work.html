@@ -3,7 +3,9 @@
 <head>
     <title>Work</title>
     <script>
-        window.location.replace("/");
+        // Redirect to homepage while keeping "/work" in the URL
+        history.replaceState(null, "", "/work"); // Keeps /work without #
+        window.location.href = "/";
     </script>
 </head>
 <body>
