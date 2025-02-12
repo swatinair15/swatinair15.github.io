@@ -138,6 +138,17 @@
       </a>
     </div>
   </footer>
+  <script>
+  // If the user came from "/work", scroll to the "Work" section
+  if (window.location.pathname === "/work") {
+      document.addEventListener("DOMContentLoaded", function() {
+          const workSection = document.getElementById("work");
+          if (workSection) {
+              workSection.scrollIntoView({ behavior: "smooth" });
+          }
+      });
+  }
+</script>
 
 
 </body>
