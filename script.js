@@ -1,5 +1,66 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+
+  const categoryToggle = document.getElementById("category-toggle");
+  const categoryMenu = document.querySelector(".category-menu");
+  const dropdownIcon = document.getElementById("dropdown-icon");
+
+  categoryToggle.addEventListener("click", (e) => {
+    e.preventDefault();     // Prevent default <button> behavior
+    e.stopPropagation();    // Prevent bubbling to document click listener
+    const isOpen = categoryMenu.classList.toggle("show");
+    dropdownIcon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
+  });
   
+
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".category-dropdown")) {
+      categoryMenu.classList.remove("show");
+      dropdownIcon.style.transform = "rotate(0deg)";
+    }
+  });
+
+  
+  // Parallax + fade-out effect for category-hero
+  const categoryHero = document.querySelector(".category-hero");
+
+  document.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+
+    // Parallax movement
+    categoryHero.style.transform = `translateY(${scrollY * 0.1}px)`;
+
+    // Fade and slide out when scrolling down
+    if (scrollY > 200) {
+      categoryHero.style.opacity = "0";
+      categoryHero.style.transform += " translateY(-50px)";
+      categoryHero.style.pointerEvents = "none";
+    } else {
+      categoryHero.style.opacity = "1";
+      categoryHero.style.transform = `translateY(${scrollY * 0.1}px)`;
+      categoryHero.style.pointerEvents = "auto";
+    }
+  });
+
+
+  // Play MP4 animation on hover
+  const videos = document.querySelectorAll('.category-video');
+  
+  videos.forEach(video => {
+    video.addEventListener('mouseenter', () => {
+      video.currentTime = 0;
+      video.play();
+    });
+  
+    video.addEventListener('mouseleave', () => {
+      video.pause();
+      video.load(); // Resets video to show poster again
+    });
+  });  
+  
+  
+    
   // Redirect function
   const redirectTo = (url) => {
     window.location.href = url;
@@ -10,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (accountingProject) {
     const clickableElements = accountingProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-      element.addEventListener("click", () => redirectTo("/accountingworkflows"));
+      element.addEventListener("click", () => redirectTo("accountingworkflows.html"));
     });
   }
 
@@ -19,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (leaflinkProject) {
     const clickableElements = leaflinkProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("/leaflink"));
+        element.addEventListener("click", () => redirectTo("leaflink.html"));
     });
   }
  
@@ -28,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (greeminderProject) {
     const clickableElements = greeminderProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("/greeminder"));
+        element.addEventListener("click", () => redirectTo("greeminder.html"));
     });
   }
 
@@ -37,30 +98,19 @@ document.addEventListener("DOMContentLoaded", () => {
   if (corridorProject) {
     const clickableElements = corridorProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("/corridor"));
+        element.addEventListener("click", () => redirectTo("corridor.html"));
     });
   }
 
-
-  // Select all articles in "Other Works" section
-  const otherWorksProjects = document.querySelectorAll("#other-works article");
-
-  // Define URLs for each project
-  const projectLinks = [
-    "/microinteractions",   // First project
-    "/social-media-creatives",         // Second project
-    "/motion-graphics"       // Third project
-  ];
-
-  // Loop through each project and add click event
-  otherWorksProjects.forEach((project, index) => {
-    project.addEventListener("click", () => {
-        redirectTo(projectLinks[index]);
+  const categoryCards = document.querySelectorAll('.category-card[data-link]');
+  categoryCards.forEach(card => {
+    card.addEventListener('click', () => {
+      const targetUrl = card.getAttribute('data-link');
+      window.location.href = targetUrl;
     });
   });
 
-
-    
+  
   // dark mode logic
   const themeToggle = document.getElementById("theme-toggle");
   const lightModeIcon = document.getElementById("light-mode-icon");
@@ -115,16 +165,4 @@ document.addEventListener("DOMContentLoaded", () => {
     introElement.style.transform = `translateY(${scrollY * 0.5}px)`; //Can adjust for slower/faster effect
   });
 
-
-  //Smooth scroll to work section
-  const workLink = document.querySelector('a[href="#work"]');
-  workLink.addEventListener("click", (event) => {
-    event.preventDefault();
-    document.querySelector("#work").scrollIntoView({ behavior: "smooth" });
-  });
-
-  
 });
-
-
-
