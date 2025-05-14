@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (leaflinkProject) {
     const clickableElements = leaflinkProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("leaflink.html"));
+        element.addEventListener("click", () => redirectTo("/leaflink"));
     });
   }
  
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (greeminderProject) {
     const clickableElements = greeminderProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("greeminder.html"));
+        element.addEventListener("click", () => redirectTo("/greeminder"));
     });
   }
 
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (corridorProject) {
     const clickableElements = corridorProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("corridor.html"));
+        element.addEventListener("click", () => redirectTo("/corridor"));
     });
   }
 
@@ -111,26 +111,6 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = targetUrl;
     });
   });
-
-/*
-  // Select all articles in "Other Works" section
-  const otherWorksProjects = document.querySelectorAll("#other-works article");
-
-  // Define URLs for each project
-  const projectLinks = [
-    "microinteractions.html",   // First project
-    "social-media-creatives.html",         // Second project
-    "motion-graphics.html"       // Third project
-  ];
-
-  // Loop through each project and add click event
-  otherWorksProjects.forEach((project, index) => {
-    project.addEventListener("click", () => {
-        redirectTo(projectLinks[index]);
-    });
-  });
-*/
-
 
     
   // dark mode logic
@@ -186,15 +166,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const scrollY = window.scrollY;
     introElement.style.transform = `translateY(${scrollY * 0.5}px)`; //Can adjust for slower/faster effect
   });
-
-/*
-  //Smooth scroll to work section
-  const workLink = document.querySelector('a[href="#work"]');
-  workLink.addEventListener("click", (event) => {
-    event.preventDefault();
-    document.querySelector("#work").scrollIntoView({ behavior: "smooth" });
-  });
-
-*/
 
 });
