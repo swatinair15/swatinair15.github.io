@@ -6,7 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -547,6 +546,20 @@ body.dark {
   color: #ffffff;
 }
 
+/* body.dark header {
+  background: #181818;
+  box-shadow: 0 0px 8px rgba(13, 13, 13, 0.663)
+}
+
+body.dark header .logo {
+  color: #ffffff;
+}
+
+body.dark header .logo:hover {
+  color: #535CD4;
+}
+*/
+
 body.dark footer {
   background: #181818;
 }
@@ -740,9 +753,9 @@ body.dark .stat-item.sad-face p1 {
 
 table {
   width: 100%;
-  border-collapse: separate; 
-  border-spacing: 0; 
-  border-radius: 10px; 
+  border-collapse: separate; /* Use separate for spacing control */
+  border-spacing: 0; /* Remove any gaps between cells */
+  border-radius: 10px; /* Rounded corners for the whole table */
   overflow: hidden;
 }
 
@@ -1263,6 +1276,78 @@ body.dark .how-might-we p1 {
 /* End of Corridor project styling */
 
 
+/* Other Works Section Styles 
+h6 {
+  text-align: left;
+  padding: 20px 20px;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+body.dark h6 {
+  color: #ffffff;
+  background: #181818;
+}
+
+.other-works {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 0;
+  padding: 20px 20px;
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+body.dark .other-works {
+  background: #181818;
+}
+
+.other-works-row {
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.other-works-image:hover {
+  scale: 1.1;
+  transition: ease-in-out;
+}
+
+
+.other-works-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.other-works article h3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.other-works article h3:hover {
+  color: #535CD4;
+}
+ End of Other work styling */
+
+
 /* Microinteraction Section Styles */
 .microinteraction {
   display: grid;
@@ -1540,6 +1625,22 @@ body.dark .busy p3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Keyframes for hand waving animation */
 @keyframes wave {
   0% {
@@ -1561,4 +1662,29 @@ body.dark .busy p3 {
 
 html {
   scroll-behavior: smooth;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    margin-bottom: 15px;
+  }
+
+  header a {
+    margin: 5px 0;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
 }
