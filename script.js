@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (accountingProject) {
     const clickableElements = accountingProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-      element.addEventListener("click", () => redirectTo("accountingworkflows.html"));
+      element.addEventListener("click", () => redirectTo("/accountingworkflows"));
     });
   }
 
