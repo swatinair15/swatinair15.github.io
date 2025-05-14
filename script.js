@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   
+  
+
   // Parallax + fade-out effect for category-hero
   const categoryHero = document.querySelector(".category-hero");
 
@@ -110,7 +112,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  
+/*
+  // Select all articles in "Other Works" section
+  const otherWorksProjects = document.querySelectorAll("#other-works article");
+
+  // Define URLs for each project
+  const projectLinks = [
+    "microinteractions.html",   // First project
+    "social-media-creatives.html",         // Second project
+    "motion-graphics.html"       // Third project
+  ];
+
+  // Loop through each project and add click event
+  otherWorksProjects.forEach((project, index) => {
+    project.addEventListener("click", () => {
+        redirectTo(projectLinks[index]);
+    });
+  });
+*/
+
+
+    
   // dark mode logic
   const themeToggle = document.getElementById("theme-toggle");
   const lightModeIcon = document.getElementById("light-mode-icon");
@@ -164,5 +186,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const scrollY = window.scrollY;
     introElement.style.transform = `translateY(${scrollY * 0.5}px)`; //Can adjust for slower/faster effect
   });
+
+/*
+  //Smooth scroll to work section
+  const workLink = document.querySelector('a[href="#work"]');
+  workLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    document.querySelector("#work").scrollIntoView({ behavior: "smooth" });
+  });
+
+*/
 
 });
