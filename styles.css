@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -13,24 +12,21 @@ header {
   position: sticky;
   top: 20px;
   margin: 0 auto;
-  max-width: 1130px; /* Or whatever width you want */
+  max-width: 1130px;
   padding: 12px 32px;
-  background: rgba(255, 255, 255, 0.2); /* fallback for light mode */
+  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(16px);
-  border-radius: 50px; /* Rounded corners */
+  border-radius: 50px;
   z-index: 100;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   transition: background 0.3s ease;
 }
 
-/* Header appearance in dark mode */
 body.dark header {
-  background: rgba(43, 43, 43, 0.391); /* Semi-transparent dark for glass effect */
+  background: rgba(43, 43, 43, 0.391);
   backdrop-filter: blur(16px);
 }
 
-
-/* Logo images */
 .logo-img {
   height: 36px;
   width: auto;
@@ -40,7 +36,6 @@ body.dark header {
   transition: opacity 0.3s ease;
 }
 
-/* Logo visibility handling */
 .light-logo {
   opacity: 1;
 }
@@ -57,10 +52,9 @@ body.dark .dark-logo {
   opacity: 1;
 }
 
-/* Positioning inside the logo wrapper */
 .logo {
   position: relative;
-  width: 100px;  /* Adjust to your logo's width */
+  width: 100px; 
   height: 36px;
   overflow: hidden;
 }
@@ -120,7 +114,6 @@ main {
   padding: 10px 20px;
 }
 
-/* Video background styles */
 .background-animation {
   position: fixed;
   top: 0;
@@ -132,10 +125,9 @@ main {
   opacity: 1;
 }
 
-/* Waving hand animation */
 .wave {
   display: inline-block;
-  animation: none; /* Controlled by JavaScript */
+  animation: none;
   transform-origin: 70% 70%; 
   font-size: 2.5rem;
 }
@@ -171,22 +163,18 @@ main {
 
 .bitmoji {
   position: absolute;
-  width: 60%; /* Adjust based on size of your bitmoji */
+  width: 60%;
   height: auto;
-  top: -60px;  /* Adjust to place the bitmoji above “Swati” */
+  top: -60px;
   left: 90%;
   transform: translateX(-50%);
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
   transition: opacity 0.3s ease;
   z-index: 5;
 }
 
-.swati-name:hover .bitmoji {
-  opacity: 1;
-}
 
-/* Category Styles */
 .categories {
   padding: 3.5rem 2rem;
   text-align: center;
@@ -225,10 +213,9 @@ main {
 
 .category-card:hover .category-video {
   transform: scale(1.10);
-  box-shadow: 0 0 20px rgba(98, 104, 210, 5.0); /* glowing effect */
+  box-shadow: 0 0 20px rgba(98, 104, 210, 5.0);
 }
 
-/* Category name */
 .category-card p {
   margin-top: 0.8rem;
   font-weight: 500;
@@ -244,15 +231,12 @@ body.dark .category-card p {
   color: #ffffff;
 }
 
-
-
 .parallax-wrapper {
   position: relative;
   margin-top: 50px;
 }
 
 
-/* UX case study style */
 .category-hero {
   position: fixed;
   margin-top: 100px;
@@ -377,14 +361,11 @@ body.dark .category-toggle:hover {
   color: #535cd4;
 }
 
-/* Dark mode dropdown support */
 body.dark .category-menu {
   --dropdown-bg: #222;
 }
 
 
-
-/* Work Section Styles */
 .work {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -454,7 +435,6 @@ body.dark .category-menu {
   cursor: pointer;
 }
 
-/* Ensuring text is outside the boxes */
 .project-row h3, .project-row p {
   text-align: center;
   margin-top: 10px;
@@ -462,8 +442,6 @@ body.dark .category-menu {
 
 
 
-
-/* Project page image section styling */
 .image-section {
   width: auto;
   height: 70vh;
@@ -477,7 +455,6 @@ body.dark .category-menu {
   object-fit: cover;
 }
 
-/* Project content section styling */
 .content {
   padding-left: 250px;
   padding-right: 250px;
@@ -540,25 +517,10 @@ footer {
   fill: #535CD4;
 }
 
-/* Dark Mode */
 body.dark {
   background-color: #181818;
   color: #ffffff;
 }
-
-/* body.dark header {
-  background: #181818;
-  box-shadow: 0 0px 8px rgba(13, 13, 13, 0.663)
-}
-
-body.dark header .logo {
-  color: #ffffff;
-}
-
-body.dark header .logo:hover {
-  color: #535CD4;
-}
-*/
 
 body.dark footer {
   background: #181818;
@@ -753,9 +715,9 @@ body.dark .stat-item.sad-face p1 {
 
 table {
   width: 100%;
-  border-collapse: separate; /* Use separate for spacing control */
-  border-spacing: 0; /* Remove any gaps between cells */
-  border-radius: 10px; /* Rounded corners for the whole table */
+  border-collapse: separate;
+  border-spacing: 0; 
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -773,7 +735,6 @@ thead tr th:last-child {
   border-top-right-radius: 10px;
 }
 
-/* Bottom-left and bottom-right corners */
 tbody tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
@@ -1133,7 +1094,7 @@ body.dark .how-might-we p1 {
 }
 
 .key-insights-img-wrapper {
-  height: 100%; /* or adjust to match tallest image */
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1996,7 +1957,7 @@ html {
   }
 
   .comparison-table-accounting table {
-    min-width: 700px; /* Enables horizontal scroll instead of squishing everything */
+    min-width: 700px;
     font-size: 0.8rem;
   }
 
