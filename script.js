@@ -1,51 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // Typing animation for intro
-  const words = [
-    "UX Designer",
-    "Product Designer",
-    "Graphic Designer",
-    "Problem Solver",
-    "Storyteller",
-    "Curious Explorer"
-  ];
-
-  let wordIndex = 0;
-  let charIndex = 0;
-  let isDeleting = false;
-  const typedElement = document.getElementById("typed");
-  const typingSpeed = 80;   // typing speed
-  const erasingSpeed = 60;   // backspace speed
-  const delayBetween = 1500; // pause after full word
-
-  function type() {
-    const currentWord = words[wordIndex];
-
-    if (!isDeleting) {
-      typedElement.textContent = currentWord.substring(0, charIndex + 1);
-      charIndex++;
-
-      if (charIndex === currentWord.length) {
-        isDeleting = true;
-        setTimeout(type, delayBetween);
-        return;
-      }
-    } else {
-      typedElement.textContent = currentWord.substring(0, charIndex - 1);
-      charIndex--;
-
-      if (charIndex === 0) {
-        isDeleting = false;
-        wordIndex = (wordIndex + 1) % words.length;
-      }
-    }
-
-    setTimeout(type, isDeleting ? erasingSpeed : typingSpeed);
-  }
-
-  if (typedElement) type(); // start typing
-
-
 
   const categoryToggle = document.getElementById("category-toggle");
   const categoryMenu = document.querySelector(".category-menu");
