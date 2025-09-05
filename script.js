@@ -1,20 +1,3 @@
-    var typed = new Typed("#typed", {
-    strings: [
-      "UX Designer",
-      "Product Designer",
-      "Visual Designer",
-      "Human-centred Thinker",
-      "Problem Solver",
-      "Design Tinkerer"
-    ],
-    typeSpeed: 70,      // speed of typing
-    backSpeed: 40,      // speed of deleting
-    backDelay: 2000,    // pause before deleting
-    loop: true,         // keep cycling
-    showCursor: true,
-    cursorChar: "|"
-  });
-
 document.addEventListener("DOMContentLoaded", () => {
 
 
@@ -36,6 +19,23 @@ document.addEventListener("DOMContentLoaded", () => {
       categoryMenu.classList.remove("show");
       dropdownIcon.style.transform = "rotate(0deg)";
     }
+  });
+
+    var typed = new Typed("#typed", {
+    strings: [
+      "UX Designer",
+      "Product Designer",
+      "Visual Designer",
+      "Human-centred Thinker",
+      "Problem Solver",
+      "Design Tinkerer"
+    ],
+    typeSpeed: 70,      // speed of typing
+    backSpeed: 40,      // speed of deleting
+    backDelay: 2000,    // pause before deleting
+    loop: true,         // keep cycling
+    showCursor: true,
+    cursorChar: "|"
   });
 
   
