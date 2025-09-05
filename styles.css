@@ -152,8 +152,33 @@ main {
   line-height: 1.6;
 }
 
+#typed {
+  color: #535CD4;
+  font-weight: 600;
+}
+
+.typed-cursor {
+  font-size: 1.2em;
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body.dark #typed {
+  color: #9E9EE6;
+}
+
 .highlight {
   color: #535CD4;
+}
+
+body.dark .highlight {
+  color: #9E9EE6;
 }
 
 .swati-name {
@@ -358,7 +383,7 @@ body.dark .category-dropdown {
 }
 
 body.dark .category-toggle:hover {
-  color: #535cd4;
+  color: #9E9EE6;
 }
 
 body.dark .category-menu {
@@ -539,7 +564,7 @@ body.dark .social-icons a .icon {
 }
 
 body.dark .social-icons a:hover .icon {
-  fill:#535CD4;
+  fill:#9E9EE6;
 }
 
 body.dark #theme-toggle svg {
@@ -547,7 +572,7 @@ body.dark #theme-toggle svg {
 }
 
 body.dark #theme-toggle:hover svg {
-  fill: #535CD4;
+  fill: #9E9EE6;
 }
 
 
@@ -562,7 +587,7 @@ body.dark .work article h3 {
 }
 
 body.dark .work article h3:hover {
-  color: #535CD4;
+  color: #9E9EE6;
 }
 
 body.dark .work article p {
