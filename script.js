@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const words = [
     "UX Designer",
     "Product Designer",
-    "Graphic Designer",
+    "Visual Designer",
+    "Human-Centred Thinker",
     "Problem Solver",
-    "Storyteller",
-    "Curious Explorer"
+    "Design Tinkerer"
   ];
 
   let wordIndex = 0;
