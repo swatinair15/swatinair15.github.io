@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-
     var typed = new Typed("#typed", {
     strings: [
       "UX Designer",
@@ -16,6 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     showCursor: true,
     cursorChar: "|"
   });
+
+document.addEventListener("DOMContentLoaded", () => {
 
 
   const categoryToggle = document.getElementById("category-toggle");
