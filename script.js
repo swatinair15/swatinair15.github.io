@@ -1,5 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    var typed = new Typed("#typed", {
+    strings: [
+      "UX Designer",
+      "Product Designer",
+      "Visual Designer",
+      "Human-centred Thinker",
+      "Problem Solver",
+      "Design Tinkerer"
+    ],
+    typeSpeed: 70,      // speed of typing
+    backSpeed: 40,      // speed of deleting
+    backDelay: 2000,    // pause before deleting
+    loop: true,         // keep cycling
+    showCursor: true,
+    cursorChar: "|"
+  });
+
 
   const categoryToggle = document.getElementById("category-toggle");
   const categoryMenu = document.querySelector(".category-menu");
