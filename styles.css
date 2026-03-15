@@ -516,7 +516,7 @@ body.dark .category-menu {
   cursor: pointer;
 }
 
-a:visited {
+.content a:visited {
   color: #1a0dab;
 }
 
