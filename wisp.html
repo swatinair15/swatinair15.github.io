@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisp - Swati Nair</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+        <img src="assets/Logo-black.svg" class="logo-img light-logo" />
+        <img src="assets/Logo-white.svg" class="logo-img dark-logo" />
+    </a>
+    <nav>
+        <div class="category-dropdown">
+            <button id="category-toggle">
+                Work 
+                <svg id="dropdown-icon" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <ul class="category-menu">
+              <li><a href="ux-case-studies.html">UX Case Studies</a></li>
+              <li><a href="graphic-design.html">Graphic Design</a></li>
+              <li><a href="motion-graphics.html">Motion Graphics</a></li>
+              <li><a href="microinteractions.html">Microinteractions</a></li>
+            </ul>
+        </div>
+      <a href="about.html#about">About</a>
+      
+      <button id="theme-toggle">
+        <svg id="light-mode-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+          <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/>
+        </svg>
+      
+        <svg id="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+          <path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+    
+    <main>
+    <section class="wisp-content-intro">
+      <div class="floating-badge">
+        <span class="emoji">✨</span>
+        <div class="w-text">
+          <p class="w-title">Chrome Extension (Shipped)</p>
+        </div>
+      </div>
+     
+    </section>
+
+    <section class="wisp-header">
+      <h2 class="wisp-title">Wisp</h2>
+      <p class="wisp-description">
+        A gentle approach to emotional awareness designed to reduce mental clutter and help users pause, check in, and reflect without pressure
+      </p>
+    </section>
+
+    <section class="image-section">
+      <video autoplay muted loop playsinline>
+        <source src="assets/Wisp-cover.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section class="wisp-meta">
+      <div class="meta-card">
+        <p class="meta-heading">Product</p>
+        <p class="meta-value">Chrome Extension</p>
+      </div>
+
+      <div class="meta-card">
+        <p class="meta-heading">Role</p>
+        <p class="meta-value">Product Designer & Front-End Developer</p>
+      </div>
+
+      <div class="meta-card">
+        <p class="meta-heading">Timeline</p>
+        <p class="meta-value">4 weeks</p>
+      </div>
+
+      <div class="meta-card">
+        <p class="meta-heading">Status</p>
+        <p class="meta-value shipped">Shipped</p>
+      </div>
+    </section>
+
+    <section class="overview-wisp">
+      <div class="section-line"></div>    
+
+      <div class="overview-layout">
+
+        <!--Left Text-->
+        <div class="overview-text">
+
+          <div class="section-heading">
+            <span class="accent-line"></span>
+            <h4 class="section-title">Overview</h4>
+          </div>
+          
+          <p>
+            Wisp is a lightweight Chrome extension designed to help people pause, notice how they feel, and reflect without pressure. Many emotional tools today feel heavy, clinical, or demand too much attention.
+          </p>
+
+          <p>
+            I wanted to design something quieter: a small space that lives in the browser where users can quickly check in with themselves thrug simple interactions.
+          </p>
+
+          <p>
+            What started as a design exploration evolved into a shipped Chrome extension where I handled product design, interaction design, visual design, and front-end implementation.
+          </p>
+        </div>
+
+        <!--Right Videos-->
+        <div class="overview-videos">
+
+          <div class="video-item">
+            <div class="video-crop">
+              <video autoplay muted loop playsinline>
+                <source src="assets/Overview-1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="video-caption">Quick mood check-in interaction</p>
+          </div>
+
+          <div class="video-item">
+            <div class="video-crop">
+              <video autoplay muted loop playsinline>
+                <source src="assets/Overview-2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="video-caption">Exploring mood details and reflections</p>
+          </div>
+
+          <div class="video-item">
+            <div class="video-crop">
+              <video autoplay muted loop playsinline>
+                <source src="assets/Overview-3.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="video-caption">Simple and calm interaction design</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="problem-wisp">
+      
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">The Problem</h4>
+      </div>
+
+      <p class="section-subtext">Why Emotional Awareness Matters</p>
+
+      <p class="problem-intro">
+        People move through their days carrying emotional weight they don't notice until it's overwhelming. We're conditioned to stay productive, push through, and keep multiple tabs open, literally and mentally. As a result, emotions often get deprioritized or ignored until they surface later as burnout, anxiety, or emotional exhaustion.
+      </p>
+
+      <!--Box 1-->
+      <div class="problem-box">
+
+        <h5>Why existing solutions fall short?</h5>
+
+        <div class="problem-item">
+          <strong>• Mood tracking apps</strong>
+          <p>
+            Often feels like homework: open the app, log a mood, answer prompts, track streaks. Instead of reducing pressure, they can create another task to complete.
+          </p>
+        </div>
+
+        <div class="problem-item">
+          <strong>• Journaling tools</strong>
+          <p>
+            Require time, space, and cognitive energy people often don't have in the middle of a busy day.
+          </p>
+        </div>
+
+        <div class="problem-item">
+          <strong>• Therapy and meditation apps</strong>
+          <p>
+            Serve an important purpose, but they aren't designed for quick, in-the-moment check-ins.
+          </p>
+        </div>
+
+      </div>
+
+      <!--Box 2-->
+      <div class="opportunity-box">
+
+        <h5>THE OPPORTUNITY</h5>
+
+        <p class="opportunity-text">
+          What if checking in with yourself felt as natural as opening a new tab?
+        </p>
+
+      </div>
+    </section>
+
+    <section class="why-wisp">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Why a Chrome Extension?</h4>
+      </div>
+
+      <p class="why-intro">
+        I chose a Chrome extension because the problem lives in the browser. People spend hours online - working, researching, procrastinating, switching between tabs. The browser is where we're already present, where we're already distracted, and often where we're carrying emotional weight without realizing it.
+      </p>
+
+      <div class="extension-benefits">
+
+        <div class="benefit-box">
+          <h5>Meet People Where They Are</h5>
+          <p>No context-switching, no separate app to remember to open.</p>
+        </div>
+
+        <div class="benefit-box">
+          <h5>Ambient Awareness</h5>
+          <p>A subtle presence in the browser rather than a demanding tool.</p>
+        </div>
+
+        <div class="benefit-box">
+          <h5>Reduce Friction</h5>
+          <p>One click from any tab.</p>
+        </div>
+      </div>
+
+      <div class="why-section-line"></div>
+
+      <div class="constraints">
+        <h5 class="constraints-title">The constraints became design clarity:</h5>
+
+        <ul class="constraints-list">
+          <li>Limited screen real estate forced ruthless prioritization</li>
+          <li>No heavy backend meant designing for simplicity and privacy</li>
+          <li>The browser context enabled quick momens of reflection between tasks</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="design-process-wisp">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Design Process</h4>
+      </div>
+
+      <p class="process-intro">
+        <strong>Research and Personal Insight</strong><br>
+        I started with my own experience. I knew what it felt like to ignore stress until it became anxiety, to push through exhaustion, and to reach the end of the day realizing I never checked in with myself. I spoke with friends, colleagues, and people in online communities about how they manage emotional awareness. These patterns emerged:
+      </p>
+
+      <div class="pattern-list">
+
+        <div class="pattern-item">
+          <strong>Pattern 1:</strong> People wanted to check in with themselves, but existing tools felt too heavy.
+        </div>
+
+        <div class="pattern-item">
+          <strong>Pattern 2:</strong> They forgot to pause until something forced them to.
+        </div>
+
+        <div class="pattern-item">
+          <strong>Pattern 3:</strong> They didn't want to be judged or tracked, they just wanted permission to notice how they felt.
+        </div>
+      </div>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">Early Concepts (What I Discarded)</h5>
+
+      <div class="concept-box">
+        <ul class="concept-list">
+          <li>
+            <strong>Guided mood tracker with categories and intensity scales</strong>
+            <span>Too clinical and introduced unnecessary friction</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="concept-box">
+        <ul class="concept-list">
+          <li>
+            <strong>Journaling prompt generator</strong>
+            <span>Required more mental energy than users were willing to give in the moment</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="concept-box">
+        <ul class="concept-list">
+          <li>
+            <strong>Daily emotional dashboard</strong>
+            <span>Felt more like surveillance than support</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="design-insight">
+        <span class="accent-line"></span>
+        <p>"I realized the problem wasn't that people needed more structure, they needed less."</p>
+      </div>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">Core Interaction Model</h5>
+      
+      <p class="core-text">
+        I stripped everything back to one simple question: <strong><span class="highlight">What are you feeling right now?</span></strong>
+      </p>
+
+      <div class="flow-box">
+
+        <h6>The Flow</h6>
+    
+        <ol>
+          <li>Click the extension icon</li>
+          <li>Choose a mood and experience the short interaction</li>
+          <li>See a gentle prompt or reflection</li>
+          <li>Close the extension and return to what you were doing</li>
+        </ol>
+    
+      </div>
+    
+      <p class="flow-caption">
+        No forced choices, no analytics dashboards, no streaks. Just a space to pause.
+      </p>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">Information Architecture</h5>
+
+      <div class="ia-image">
+        
+        <!--Light mode-->
+        <img src="assets/IA-Light mode.png" alt="Wisp Information Architecture" class="ia-light">
+
+        <!--Dark mode-->
+        <img src="assets/IA-Dark mode.png" alt="Wisp Information Architecture" class="ia-dark">
+      </div>
+
+      <p class="ia-caption">
+        The structure prioritizes quick emotional check-ins and keeps the interaction simple, focused, and distraction-free.
+      </p>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">Design System and Style Guide</h5>
+
+      <p class="style-text">
+        I wanted Wisp to feel like a breath. Every visual decision reinforces the same message: <em><span class="highlight">It's okay to take a moment.</span></em><br> 
+        I designed a simple visual system to keep the interface calm, readable, and accessible.
+      </p>
+
+      <div class="style-image">
+
+        <!--Light mode-->
+        <img src="assets/Color-palette-light.png" alt="Wisp Color Palette" class="color-light">
+
+        <img src="assets/typography-light.png" alt="Wisp Typography" class="typography-light">
+
+        <!--Dark mode-->
+        <img src="assets/Color-palette-dark.png" alt="Wisp Color Palette" class="color-dark">
+
+        <img src="assets/typography-dark.png" alt="Wisp Typography" class="typography-dark">
+      </div>
+
+      <div class="why-section-line"></div>
+      
+      <h5 class="subsection-title">Iconography</h5>
+
+      <div class="iconography-layout">
+
+        <!--Left text-->
+        <div class="iconography-text">
+          <p>
+            Emotional states in Wisp are represented through soft animated icons. Instead of rigid emojis or labels, each mood uses subtle motion to feel expressive without being overwhelming.
+          </p>
+
+          <p>
+            The icons are designed to be gentle, recognizable, and emotionally neutral, allowing users to interpret their feelings without judgement.
+          </p>
+        </div>
+
+        <!--Right icons-->
+        <div class="iconography-grid">
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Calm.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Distracted.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Stressed.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Anxious.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/overwhelmed.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Drained.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Numb.mp4" type="video/mp4">
+          </video>
+
+          <video autoplay muted loop playsinline>
+            <source src="assets/Checking-in.mp4" type="video/mp4">
+          </video>
+          
+        </div>
+      </div>
+
+    </section>
+
+    <section class="prototype-wisp">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Interactive Prototype</h4>
+      </div>
+
+      <div class="prototype-layout">
+
+        <!--prototype-->
+        <div class="prototype-frame">
+
+          <div class="prototype-crop">
+            <iframe
+              src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/Fmr3aYcf9xXWw1Eq5v6ddH/Wisp?page-id=0%3A1&node-id=982-1893&viewport=-1182%2C-7233%2C0.97&t=Qz4iI35BLIn3HErg-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=75%3A27"
+              allowfullscreen>
+            </iframe>
+          </div>  
+            
+
+        </div>
+
+        <!--text-->
+        <div class="prototype-text">
+          <p>
+            To explore how Wisp works in practice, here's an interactive prototype that simulates the extension experience inside the browser.
+          </p>
+
+          <p>
+            It highlights the mood selection interface, animated feedback, and the short grounding interaction designed to support emotional regulation without adding friction.
+          </p>
+
+          <p class="prototype-note">
+            Feel free to explore the interaction. 
+          </p>
+        </div>
+        
+      </div>
+
+    </section>
+
+    <section class="design-decisions">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Key Design Decisions</h4>
+      </div>
+
+      <h5 class="decision-subtitle">What I Simplified</h5>
+
+      <div class="decision-stack">
+
+        <div class="decision-box">
+          <ul>
+            <li>
+              <strong>Limited mood set</strong><br>
+              Instead of long list of emotional labels, Wisp uses a small set of animated icons to make emotionsl check-ins quick and intuitive.
+            </li>
+          </ul>
+        </div>
+
+        <div class="decision-box">
+          <ul>
+            <li>
+              <strong>No reminders or notifications</strong><br>
+              They would defeat the purpose. Wisp is there when you're ready, not demanding attention.
+            </li>
+          </ul>
+        </div>
+
+        <div class="decision-box">
+          <ul>
+            <li>
+              <strong>No data visualization</strong><br>
+              Graphs and trends can be useful, but they can also create pressure to optimize emotions.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">What I Intentionally Didn't Build</h5>
+
+      <div class="decision-stack">
+
+        <div class="decision-box">
+          <ul>
+            <li>
+              <strong>Social features</strong><br>
+              Emotional check-ins should not be performative.
+            </li>
+          </ul>
+        </div>
+
+        <div class="decision-box">
+          <ul>
+            <li>
+              <strong>Gamification</strong><br>
+              No streaks, no rewards. Those mechanics undermine gentleness.
+            </li>
+          </ul>
+        </div>
+
+        <div class="decision-box">
+          <ul>
+            <li>
+              <strong>AI-generated insights</strong><br>
+              I didn't want the extension to tell users how to feel or what their emotions mean.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">Critical Trade-offs</h5>
+
+      <div class="tradeoff-grid">
+
+        <div class="tradeoff-box">
+          <strong>Simplicity over Features</strong>
+          <p>Prioritized reducing overwhelm over accomodating every use case.</p>
+        </div>
+
+        <div class="tradeoff-box">
+          <strong>Privacy over Analytics</strong>
+          <p>No backend meant users' reflections stayed private by default.</p>
+        </div>
+
+        <div class="tradeoff-box">
+          <strong>Launch over Perfection</strong>
+          <p>Shipped with solid foundation, planned iteration based on real use.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="challenges-constraints">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Challenges and Constraints</h4>
+      </div>
+
+      <h5 class="decision-subtitle">Technical Limitations</h5>
+
+      <p class="challenges-text">
+        I'm not an engineer, so I designed within the constraints of what a Chrome extension could realistically support without complex backend infrastructire. This pushed me to focus on interaction design and user experience rather than feature complexity, reinforcing the product's core value: <span class="highlight">simplicity</span>.
+      </p>
+
+      <div class="why-section-line"></div>
+
+      <h5 class="subsection-title">Scope Management</h5>
+
+      <p class="challenges-text">
+        The biggest challenge was knowing when to stop designing and start shipping. There were dozens of features I considered, but I kept asking: <em><span class="highlight">Does this serve the core purpose, or am I just designing to feel productive?"</span></em> This helped me learn the difference between <em>nice to have</em> and <em>necessary to launch</em>.
+      </p>
+
+    </section>
+
+    <section class="reflection-wisp">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Reflection</h4>
+      </div>
+
+      <p>
+        This project taught me that designing for emotional well-being isn't about adding features, but it's about removing barriers. It reinforced that good UX isn't about impressive interactions, it's about making space for people to do what they actually need.
+      </p>
+
+      <p>
+        Most importantly, it showed me that I can take an idea from concept to launch. I made decisions, shipped something real, and learned from every step.
+      </p>
+
+    </section>
+   
+  </main>
+  
+  <footer>
+    <div class="footer-line"></div>
+    <div class="footer-text">
+      <p>Designed and coded with ❤️ and way too much ☕️</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/nair-swati" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </a>
+      
+      <a href="mailto:swatinair15@gmail.com">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script src="libs/lottie.min.js"></script>
+
+
+</body>
+</html>
