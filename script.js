@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  
 
-  // Typing animation for intro
   const words = [
     "UX Designer",
     "Product Designer",
@@ -15,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let charIndex = 0;
   let isDeleting = false;
   const typedElement = document.getElementById("typed");
-  const typingSpeed = 80;   // typing speed
-  const erasingSpeed = 60;   // backspace speed
-  const delayBetween = 1500; // pause after full word
+  const typingSpeed = 80;   
+  const erasingSpeed = 60;  
+  const delayBetween = 1500; 
 
   function type() {
     const currentWord = words[wordIndex];
@@ -44,7 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(type, isDeleting ? erasingSpeed : typingSpeed);
   }
 
-  if (typedElement) type(); // start typing
+  if (typedElement) type();
+
+
 
 
   const categoryToggle = document.getElementById("category-toggle");
@@ -52,33 +52,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const dropdownIcon = document.getElementById("dropdown-icon");
 
   categoryToggle.addEventListener("click", (e) => {
-    e.preventDefault();     // Prevent default <button> behavior
-    e.stopPropagation();    // Prevent bubbling to document click listener
+    e.preventDefault();     
+    e.stopPropagation();    
     const isOpen = categoryMenu.classList.toggle("show");
     dropdownIcon.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
   });
   
 
-  // Close dropdown when clicking outside
   document.addEventListener("click", (e) => {
     if (!e.target.closest(".category-dropdown")) {
       categoryMenu.classList.remove("show");
       dropdownIcon.style.transform = "rotate(0deg)";
     }
   });
-
   
 
-  // Parallax + fade-out effect for category-hero
   const categoryHero = document.querySelector(".category-hero");
 
   document.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
 
-    // Parallax movement
     categoryHero.style.transform = `translateY(${scrollY * 0.1}px)`;
 
-    // Fade and slide out when scrolling down
     if (scrollY > 200) {
       categoryHero.style.opacity = "0";
       categoryHero.style.transform += " translateY(-50px)";
@@ -90,8 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-
-  // Play MP4 animation on hover
   const videos = document.querySelectorAll('.category-video');
   
   videos.forEach(video => {
@@ -102,52 +95,51 @@ document.addEventListener("DOMContentLoaded", () => {
   
     video.addEventListener('mouseleave', () => {
       video.pause();
-      video.load(); // Resets video to show poster again
+      video.load(); 
     });
   });  
   
-  
     
-  // Redirect function
   const redirectTo = (url) => {
     window.location.href = url;
   };
 
-  // Target the first project (Accounting Workflows)
-  const accountingProject = document.querySelector("article:first-of-type");
+  // Wisp
+  const wispProject = document.querySelector("article:first-of-type");
+  if (wispProject) {
+    const clickableElements = wispProject.querySelectorAll(".project-image, h3, p");
+    clickableElements.forEach((element) => {
+      element.addEventListener("click", () => redirectTo("wisp.html"));
+    });
+  }
+
+  // Accounting Workflows
+  const accountingProject = document.querySelector("article:nth-of-type(2)");
   if (accountingProject) {
     const clickableElements = accountingProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-      element.addEventListener("click", () => redirectTo("/accountingworkflows"));
+      element.addEventListener("click", () => redirectTo("accountingworkflows.html"));
     });
   }
 
-  // Target the second project (Leaflink)
-  const leaflinkProject = document.querySelector("article:nth-of-type(2)");
+  // Leaflink
+  const leaflinkProject = document.querySelector("article:nth-of-type(3)");
   if (leaflinkProject) {
     const clickableElements = leaflinkProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("/leaflink"));
+        element.addEventListener("click", () => redirectTo("leaflink.html"));
     });
   }
  
-  // Target the third project (Greeminder)
-  const greeminderProject = document.querySelector("article:nth-of-type(3)");
+  // Greeminder
+  const greeminderProject = document.querySelector("article:nth-of-type(4)");
   if (greeminderProject) {
     const clickableElements = greeminderProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("/greeminder"));
+        element.addEventListener("click", () => redirectTo("greeminder.html"));
     });
   }
 
-  // Target the fourth project (Corridor)
-  const corridorProject = document.querySelector("article:nth-of-type(4)");
-  if (corridorProject) {
-    const clickableElements = corridorProject.querySelectorAll(".project-image, h3, p");
-    clickableElements.forEach((element) => {
-        element.addEventListener("click", () => redirectTo("/corridor"));
-    });
-  }
 
   const categoryCards = document.querySelectorAll('.category-card[data-link]');
   categoryCards.forEach(card => {
@@ -157,13 +149,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-    
   // dark mode logic
   const themeToggle = document.getElementById("theme-toggle");
   const lightModeIcon = document.getElementById("light-mode-icon");
   const darkModeIcon = document.getElementById("dark-mode-icon");
 
-  // Initialize dark mode based on localStorage
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark");
     darkModeIcon.style.display = "block";
@@ -174,7 +164,6 @@ document.addEventListener("DOMContentLoaded", () => {
     lightModeIcon.style.display = "block";
   }
 
-  // Toggle dark mode on button click
   themeToggle.addEventListener("click", () => {
   if (document.body.classList.contains("dark")) {
     document.body.classList.remove("dark");
@@ -192,16 +181,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //Waving animation
   const waveElement = document.querySelector(".wave");
-  //Function to start the waving animation
   function startWaveAnimation() {
-    waveElement.style.animation = "wave 2s ease-in-out"; //Play waving animation 1second
+    waveElement.style.animation = "wave 2s ease-in-out"; 
     setTimeout(() => {
-      waveElement.style.animation = "none"; //Reset animation to allow re-triggering
-    }, 2000) //Remove animation after it finishes 
+      waveElement.style.animation = "none";
+    }, 2000) 
   }
-  //Loop the animation every 3 seconds (1s animation + 2s rest)
+ 
   setInterval(startWaveAnimation, 3000);
-  //Start the first wave immediately
   startWaveAnimation();
 
 
@@ -209,7 +196,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const introElement = document.querySelector(".intro");
   document.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
-    introElement.style.transform = `translateY(${scrollY * 0.5}px)`; //Can adjust for slower/faster effect
+    introElement.style.transform = `translateY(${scrollY * 0.5}px)`;
   });
 
 });
+
+
+
+
+
