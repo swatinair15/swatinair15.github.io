@@ -3717,10 +3717,22 @@ html {
   body.dark header a:hover,
   #theme-toggle:hover,
   #theme-toggle:hover svg,
+  #category-toggle:hover,
   .category-card:hover .category-label,
   .category-card:hover {
     color: inherit !important;
     transform: none !important;
+  }
+
+  #theme-toggle:focus svg,
+  #theme-toggle:active svg {
+    fill: #838383;
+  }
+
+  body.dark #theme-toggle:hover svg,
+  body.dark #theme-toggle:focus svg,
+  body.dark #theme-toggle:active svg {
+    fill: #ffffff;
   }
 }
 
