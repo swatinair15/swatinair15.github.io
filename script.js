@@ -113,8 +113,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Accounting Workflows
-  const accountingProject = document.querySelector("article:nth-of-type(2)");
+  // Ecom
+  const ecomProject = document.querySelector("article:nth-of-type(2)");
+  if (ecomProject) {
+    const clickableElements = ecomProject.querySelectorAll(".project-image, h3, p");
+    clickableElements.forEach((element) => {
+      element.addEventListener("click", () => redirectTo("ecommerce.html"));
+    });
+  }
+
+  // Acounting workflow 
+  const accountingProject = document.querySelector("article:nth-of-type(3)");
   if (accountingProject) {
     const clickableElements = accountingProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
@@ -123,16 +132,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Leaflink
-  const leaflinkProject = document.querySelector("article:nth-of-type(3)");
+  const leaflinkProject = document.querySelector("article:nth-of-type(4)");
   if (leaflinkProject) {
     const clickableElements = leaflinkProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
         element.addEventListener("click", () => redirectTo("leaflink.html"));
     });
   }
- 
-  // Greeminder
-  const greeminderProject = document.querySelector("article:nth-of-type(4)");
+
+   // Greeminder
+  const greeminderProject = document.querySelector("article:nth-of-type(5)");
   if (greeminderProject) {
     const clickableElements = greeminderProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
