@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce - Swati Nair</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+        <img src="assets/Logo-black.svg" class="logo-img light-logo" />
+        <img src="assets/Logo-white.svg" class="logo-img dark-logo" />
+    </a>
+    <nav>
+        <div class="category-dropdown">
+            <button id="category-toggle">
+                Work 
+                <svg id="dropdown-icon" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <ul class="category-menu">
+              <li><a href="ux-case-studies.html">UX Case Studies</a></li>
+              <li><a href="graphic-design.html">Graphic Design</a></li>
+              <li><a href="motion-graphics.html">Motion Graphics</a></li>
+              <li><a href="microinteractions.html">Microinteractions</a></li>
+            </ul>
+        </div>
+      <a href="about.html#about">About</a>
+      
+      <button id="theme-toggle">
+        <svg id="light-mode-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+          <path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/>
+        </svg>
+      
+        <svg id="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+          <path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+    
+    <main>
+    <section class="wisp-content-intro">
+      <div class="floating-badge">
+        <span class="emoji">✨</span>
+        <div class="w-text">
+          <p class="w-title">E-commerce • Live</p>
+        </div>
+      </div>
+     
+    </section>
+
+    <section class="ecom-header">
+      <h2 class="ecom-title">Designing an E-Commerce Experience for a Sports Nutrition Brand</h2>
+    </section>
+
+    <section class="image-section">
+      <img src="assets/Ecom-cover.png" />
+    </section>
+
+    <section class="wisp-meta">
+      <div class="meta-card">
+        <p class="meta-heading">Role</p>
+        <p class="meta-value">UX/UI Designer</p>
+      </div>
+
+      <div class="meta-card">
+        <p class="meta-heading">Scope</p>
+        <p class="meta-value">End-to-end Product Design<br>(0 → 1)</p>
+      </div>
+
+      <div class="meta-card">
+        <p class="meta-heading">Focus</p>
+        <p class="meta-value">Product Discovery • Conversion • Trust</p>
+      </div>
+
+      <div class="meta-card">
+        <p class="meta-heading">Platform</p>
+        <p class="meta-value">Responsive Web & Mobile</p>
+      </div>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section class="ecom-overview">
+      
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Overview</h4>
+      </div>
+
+      <div class="ecom-overview-box">
+        
+        <div class="overview-text">
+          <p>
+            This project was part of my work at a startup in the fitness and supplements space, offering products like pre-workout, whey protein, and amino acids.
+          </p>
+  
+          <p>
+            Most e-commerce experiences in this category rely heavily on aggressive visuals and promotional noise, often at the cost of clarity. Products look similar, information is hard to scan, and trust-building elements are easy to miss.
+          </p>
+  
+          <p>
+            The goal was to create an experience that helps users quickly understand what a product does, evaluate if it fits their needs, and move toward purchase without friction.
+          </p>
+        </div>
+
+        <div class="ecom-overview-media">
+          <video src="assets/IA-Mobile-prototype.mp4" autoplay muted loop playsinline></video>
+            
+        </div>
+      </div>
+
+    </section>
+
+    <section class="problem-wisp">
+      
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Framing the Problem Space</h4>
+      </div>
+
+    <!-- <p class="section-subtext">Why Emotional Awareness Matters</p> -->
+
+      <p class="problem-intro">
+        Designing from scratch meant defining what a good experience in this category should look like.
+        <br><br>
+        Through reviewing existing sports nutrition websites and common e-commerce patterns, a few consistent issues stood out:
+      </p>
+
+      <!--Box 1-->
+      <div class="ecom-problem-box">
+
+        <div class="problem-item">
+          <p>
+            • Heavy reliance on visual intensity over usability
+          </p>
+        </div>
+
+        <div class="problem-item">
+          <p>
+            • Poor differentiation between similar products
+          </p>
+        </div>
+
+        <div class="problem-item">
+          <p>
+            • Information structured for display, not decision-making
+          </p>
+        </div>
+
+        <div class="problem-item">
+          <p>
+            • Trust signals not aligned with user hesitation points
+          </p>
+        </div>
+
+      </div>
+
+      <p class="problem-intro">
+        This highlighted a gap, that, while users come in with clear intent, the experience often makes decision-making harder than it needs to be.
+      </p>
+
+      <!--Box 2-->
+      <div class="opportunity-box">
+
+        <h5>DEFINING THE CHALLENGE</h5>
+
+        <p class="opportunity-text">
+          How might we design an experience that supports fast, confident decision-making, while still reflecting a bold and high-energy brand identity?
+        </p>
+
+      </div>
+    </section>
+
+    <section class="ecom-principles">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Design Principles</h4>
+      </div>
+
+      <div class="principle-box">
+        <div class="principle-text">
+          <h5>Clarity over intensity</h5>
+          <p>
+            The interface prioritizes structure, readability, and hierarchy over visual noise to make information easy to process and understand at a glance.
+          </p>
+        </div>
+        <div class="principle-media">
+          <video src="assets/principle-1.mp4" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+
+      <div class="principle-box">
+        <div class="principle-text">
+          <h5>Designed for scanning</h5>
+          <p>
+            Users don't go through product pages linearly. Key information is surfaced in a way that can be quickly understood without requiring deep reading.
+          </p>
+        </div>
+        <div class="principle-media">
+          <video src="assets/principle-2.mp4" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+
+      <div class="principle-box-mob">
+        <div class="principle-media-mob">
+          <video src="assets/principle-3.mp4" autoplay loop muted playsinline></video>
+        </div>
+        <div class="principle-text">
+          <h5>Trust at the moment of hesitation</h5>
+          <p>
+            Instead of grouping trust elements in one place, cues like product details and reviews are placed exactly where users tend to question their decision.
+          </p>
+        </div>
+      </div>
+
+      <div class="principle-box-mob">
+        <div class="principle-media-mob">
+          <video src="assets/principle-4.mp4" autoplay loop muted playsinline></video>
+        </div>
+        <div class="principle-text">
+          <h5>Reduce distance to action</h5>
+          <p>
+            Users often arrive with a specific goal. The experience minimizes steps between intent and purchase, keeping key actions easily accessible.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="mobile-behavior">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Designing for Mobile Behavior</h4>
+      </div>
+
+      <div class="behavior-layout">
+        <div class="behavior-text">
+          <p>
+            According to research, around 84% of purchases in this category happen on mobile, where speed and reachability directly affect conversion.
+          </p>
+
+          <p>
+            The interface was designed to support one-handed use, keeping key actions, and interactions within the natural thumb zone.
+          </p>
+        </div>
+
+        <div class="behavior-image">
+          <img src="assets/thumb-zone.png">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="ecom-experience">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Guided Experience Walkthrough</h4><br><br><br><br><br><br><br>
+      </div>
+
+      <div class="experience-box">
+        <ul class="experience-list">
+          <li>
+            <strong>Entry & Discovery</strong>
+            <span>Clear navigation and early category cues help users quickly find a starting point</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-box">
+        <ul class="experience-list">
+          <li>
+            <strong>Browsing Products</strong>
+            <span>Filters and structured product cards enable fast comparison across similar products</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-box">
+        <ul class="experience-list">
+          <li>
+            <strong>Fast Purchase with Quick Buy</strong>
+            <span>Users can preview key details and take action instantly without leaving the listing page, reducing friction</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-box">
+        <ul class="experience-list">
+          <li>
+            <strong>Product Deep Dive</strong>
+            <span>A detailed view supports deeper evaluation for users who need more information</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-box">
+        <ul class="experience-list">
+          <li>
+            <strong>Checkout & Confirmation</strong>
+            <span>A streamlined flow captures essential details and enables quick, frictionless purchase completion</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="experience-media">
+        <video src="assets/IA-Web-prototype.mp4" autoplay loop muted playsinline></video>
+      </div>
+
+    </section>
+
+    <section class="ecom-design-decision">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Decision Moments</h4>
+      </div>
+
+      <h5 class="decision-subtitle">Landing → Where do users start?</h5>
+
+      <div class="ecom-decision-stack">
+
+        <div class="ecom-decision-box">
+          <ul>
+            Users often arrive with a goal but no clear starting point. The homepage needed to guide them without overwhelming them:<br><br>
+            <li>
+              Navigation surfaces both shopping and utility actions such as tracking and product verification
+            </li>
+            <li>
+              Product categories are introduced early to anchor exploration
+            </li>
+            <li>
+              Visual sections support brand identity without interrupting flow
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h5 class="decision-subtitle">Browsing → What’s right for users?</h5>
+
+      <div class="ecom-decision-stack">
+
+        <div class="ecom-decision-box">
+          <ul>
+            Once users begin exploring, speed and comparison become critical.<br><br>
+            <li>
+              A quick-buy interaction (on desktop) allows users to take action without leaving the listing page
+            </li>
+            <li>
+              Product cards highlight essential information for quick evaluation
+            </li>
+            <li>
+              Filters and sorting help narrow down options quickly
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h5 class="decision-subtitle">Decision → Are users confident enough to buy?</h5>
+
+      <div class="ecom-decision-stack">
+
+        <div class="ecom-decision-box">
+          <ul>
+            At this stage, users are no longer browsing, they are deciding. The goal here was to reduce hesitation and support confident decision-making. The experience focuses on answering these key questions:<br><br>
+            <li>
+              What does this product do?
+            </li>
+            <li>
+              Is it right for their goals?
+            </li>
+            <li>
+              Can they trust it?
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h5 class="decision-subtitle">Action → Move to checkout</h5>
+
+      <div class="ecom-decision-stack">
+
+        <div class="ecom-decision-box">
+          <ul>
+            Once a decision is made, the focus shifts to speed, clarity, and minimal friction.<br><br>
+            <li>
+              “Buy now” provides a direct path for high-intent users
+            </li>
+            <li>
+              Checkout captures only essential information
+            </li>
+            <li>
+              Cart allows quick edits without disrupting flow
+            </li>
+            <li>
+              A lightweight confirmation interaction completes the journey
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="challenges-constraints">
+
+      <div class="section-heading">
+        <span class="accent-line"></span>
+        <h4 class="section-title">Key Takeaway</h4>
+      </div>
+
+
+      <p class="challenges-text">
+        One of the biggest learnings from this project was how quickly users want to move from intent to action in e-commerce. They usually come in with a goal and want to make a decision quickly.
+        <br><br>
+        Designing for that meant focusing less on showcasing and more on helping them decide, even if that meant removing things that didn't directly support that goal.
+      </p>
+
+    </section>
+   
+  </main>
+  
+  <footer>
+    <div class="footer-line"></div>
+    <div class="footer-text">
+      <p>Designed and coded with ❤️ and way too much ☕️</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/nair-swati" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </a>
+      
+      <a href="mailto:swatinair15@gmail.com">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script src="libs/lottie.min.js"></script>
+
+
+</body>
+</html>
