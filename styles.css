@@ -2515,6 +2515,284 @@ body.dark .reflection-wisp p{
 
 /* end of wisp section styling*/
 
+  
+/* Iron Asylum project styling */
+.ecom-overview {
+  max-width: 1190px;
+  margin: 120px auto;
+}
+
+.ecom-overview-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  margin-bottom: 80px;
+}
+
+.ecom-overview-media {
+  align-items: center;
+  width: 374px;
+  height: 775px;
+  overflow: hidden;
+  border-radius: 60px;
+  position: relative;
+}
+
+.ecom-overview-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transform: scale(1.06) translateY(0);
+}
+
+.ecom-header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.ecom-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.ecom-problem-box {
+  background: #F9FAFB;
+  border-radius: 14px;
+  padding: 12px 32px;
+  margin-bottom: 40px;
+  border: 1px solid #E6E7EB;
+}
+
+body.dark .ecom-problem-box {
+  background: #232323;
+  border: 1px solid rgb(92, 92, 92)
+}
+
+.ecom-principles {
+  max-width: 1190px;
+  margin: 120px auto;
+}
+
+.principle-box {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.principle-box-mob {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.principle-text h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.principle-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+body.dark .principle-text p {
+  color: #fff;
+}
+
+.principle-media video {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.principle-media-mob video {
+  width: 320px;
+  border-radius: 46px;
+  object-fit: cover;
+}
+
+.mobile-behavior {
+  max-width: 1190px;
+  margin: 120px auto;
+}
+
+.behavior-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.behavior-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+body.dark .behavior-text p {
+  color: #fff;
+}
+
+.behavior-image img {
+  width: 320px;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.ecom-experience {
+  max-width: 1190px;
+  margin: 120px auto;
+}
+
+.experience-box { 
+  background: #F9FAFB;
+  border: 1px solid #E6E7EB;
+  border-radius: 14px;
+  padding: 22px 32px;
+  max-width: auto;
+  margin-bottom: 20px;
+}
+
+body.dark .experience-box {
+  background: #232323;
+  border: 1px solid rgb(92, 92, 92)
+}
+
+.experience-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.experience-list li {
+  position:relative;
+  padding-left:22px;
+  line-height:1.6;
+}
+
+.experience-list li::before {
+  content:"▶";
+  position:absolute;
+  left:0;
+  top:5px;
+  font-size:10px;
+  color:#6c6cff;
+}
+
+.experience-list strong {
+  display: block;
+  color: #333;
+}
+
+body.dark .experience-list strong {
+  color: #efefef;
+}
+
+.experience-list span {
+  display: block;
+  font-size: 15px;
+  color: #666;
+}
+
+body.dark .experience-list span {
+  color: #d8d8d8;
+}
+
+.experience-media {
+  width: 1160px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.experience-media video {
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1) translateY(20px) translateX(-106px);
+
+}
+
+.ecom-overview-media {
+  align-items: center;
+  width: 374px;
+  height: 775px;
+  overflow: hidden;
+  border-radius: 60px;
+  position: relative;
+}
+
+.ecom-overview-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transform: scale(1.06) translateY(0);
+}
+
+.ecom-design-decision {
+  max-width: 1190px;
+  margin: 120px auto;
+}
+
+.ecom-decision-stack{
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  margin-bottom: 40px;
+}
+
+.ecom-decision-box{
+  border:1px solid #E6E7EB;
+  border-radius:12px;
+  padding:22px 26px;
+  background:#F9FAFB;
+}
+
+body.dark .ecom-decision-box {
+  background: #232323;
+  border: 1px solid rgb(92, 92, 92)
+}
+
+.ecom-decision-box ul{
+  list-style:none;
+  padding-left:0;
+  margin:0;
+}
+
+.ecom-decision-box li{
+  position:relative;
+  padding-left:22px;
+  line-height:1.6;
+  margin-bottom: 10px;
+}
+
+.ecom-decision-box li::before{
+  content:"▶";
+  position:absolute;
+  left:0;
+  top:5px;
+  font-size:10px;
+  color:#6c6cff;
+}
+
+/* End of Iron Asylum project styling */
+
 
 
 /* Keyframes for hand waving animation */
