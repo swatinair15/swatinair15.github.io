@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (wispProject) {
     const clickableElements = wispProject.querySelectorAll(".project-image, h3, p");
     clickableElements.forEach((element) => {
-      element.addEventListener("click", () => redirectTo("wisp.html"));
+      element.addEventListener("click", () => redirectTo("/wisp"));
     });
   }
 
